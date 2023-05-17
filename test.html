@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>OwlCarousel Slider</title>
+<link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+ 
+      <div>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+                <div id="owl-example" class="owl-carousel">
+                  <div> Your Content Tab 1</div>
+                  <div> Your Content Tab 1 </div>
+                  <div> Your Content Tab 1</div>
+                  <div> Your Content Tab 1 </div>
+                  <div> Your Content Tab 1</div>
+                  <div> Your Content Tab 1</div>
+                  <div> Your Content Tab 1</div>
+                </div>    
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <div id="owl-example" class="owl-carousel">
+                  <div> Your Content Tab 2</div>
+                  <div> Your Content Tab 2</div>
+                  <div> Your Content Tab 2</div>
+                  <div> Your Content Tab 2</div>
+                  <div> Your Content Tab 2Tab 2Tab 2</div>
+                  <div> Your Content Tab 2Tab 2</div>
+                  <div> Your Content Tab 2</div>
+                </div> 
+          </div>
+        </div>
+
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+ 
+<script>
+
+$(document).ready(function() {
+
+  $(".owl-carousel").owlCarousel({
+    speed: 800,
+    margin:15,
+    autoplay:true,
+    nav:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:3
+      }
+    }
+  });
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    e.target // newly activated tab
+    e.relatedTarget // previous active tab
+    $(".owl-carousel").trigger('refresh.owl.carousel');
+    });
+  });
+  </script>
+  </body>
+</html>

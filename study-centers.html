@@ -30,7 +30,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav main-menu">
-              <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="courses-new2.html">Courses</a>
+              <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="courses.html">Courses</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="study-centers.html">Study Centers</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="life-at-nebula.html">Life At Nebula</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="#">News And Events</a>
@@ -48,14 +48,15 @@
   </div>
   <!--NavBar End-->
   <div class="container-fluid hero-outer-container study-center">
-    <div class="container">
+    <div class="container-fluid">
       <div class="hero-banner-area" style="position: relative">
         <div class="row">
           <div class="col-md-7 theme-image">
-            <img src="assets/img/study-centeres/study-center-main-image.png" class="" alt="courses">
+            <img src="assets/img/study-centeres/study-center-main-bg.png" class="" alt="courses">
           </div>
           <div class="col-md-5 title-block study-center">
-            <h1>Study<br>Centres</h1>
+            <h1 class="part1">Study</h1>
+            <h1 class="part2">Centres</h1>
           </div>
         </div>
       </div>
@@ -126,9 +127,12 @@
 <!--Heading nav end-->
 
 <!--Study with us-->
-<section class="container study-with-align">
+<section>
     
-  <div class="row courses-carousal-cont">
+    <div class="container-fluid study-center2">
+<div class="container">  
+    
+    <div class="row courses-carousal-cont">
     <!--Custom carousal btn start-->
     <div class="hstack justify-content-between my-2 courses-carousal-buttons">
       <button type="button" id="courses-carousal-NextBtn" class="circuler-button mx-2 owl-next">
@@ -140,50 +144,266 @@
     </div>
     <!--Custom carousal btn end-->
     <div id="courses-carousal" class="owl-carousel">
-       
-<!-- course1 -->
+      
+      <!-- Moratuwa -->
       <div class="col">
-        <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
+        <a href="#ss-details"><div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
           <img src="assets/img/study-centeres/slt-training-moratuwa.png" alt="" class="img-fluid">
-          <p class="course-title">Moratuwa</p>
+          <p class="course-title">Moratuwa Study Center</p>
           <div class="university-badge">
-            <p>Study Center</p>
+            <p>View Details</p>
           </div>
-        </div>
-        
+        </div></a>
       </div>
-
-<!-- course2 -->
+      
+      <!-- Welisara -->
       <div class="col">
-        <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
+        <a href="study-center-welisara.html"><div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
           <img src="assets/img/study-centeres/slt-training-welisara.png" alt="" class="img-fluid">
-          <p class="course-title">Welisara</p>
+          <p class="course-title">Welisara Study Center</p>
           <div class="university-badge">
-            <p>Study Center</p>
+            <p>View Details</p>
           </div>
-        </div>
-        
+        </div></a>
       </div>
-        
-<!-- course3 -->       
+      
+      <!-- Peradeniya -->
       <div class="col">
-        <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
+        <a href="study-center-peradeniya.html"><div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
           <img src="assets/img/study-centeres/slt-training-pera.png" alt="" class="img-fluid">
-          <p class="course-title">Peradeniya</p>
+          <p class="course-title">Peradeniya Study Center</p>
           <div class="university-badge">
-            <p>Study Center</p>
+            <p>View Details</p>
           </div>
-        </div>
-        
+        </div></a>
       </div>
-
-         
     </div>
   </div>
-
+  <div class="row" id="ss-details" >
+      <div class="col-md-9 offset-md-3 col-12">
+<div class="item">
+      <div class="row">
+        <h1>Moratuwa Study Center</h1>
+        <div class="col-md-12">
+          <p>Inaugurated in 1988, the Welisara Training Centre is one of our main training centres. Situated in the Welisara, Negombo Road, it is easily accessible from Colombo, Negombo as well as Gampaha.</p>
+          <p>The Welisara Training Centre premises comprise of all required facilities specially designed to ensure a pleasant learning environment. It consists of fully air conditioned labs, classrooms, auditorium, library and administration offices. A hostel facility is also available for students, as well as a large sports ground and an indoor games room to encourage students to take part in sports activities and thus ensuring a vibrant campus life.</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="study-center tabs-container">
+          <ul id="tab-set1" class="tab-set">
+            <li>
+              <a class="active" href="javascript:void(0);" id="sc1-tab1">Facilities</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" id="sc1-tab2">Courses</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" id="sc1-tab3">Our Team</a>
+            </li>
+          </ul>
+        </div>
+        <div class="study-center tab-content-container">
+            
+          <div id="sc1Facilities" style="display: block;">
+              <div class="row">
+              <div class="col-md-12">
+                <section class="tab-content-outer">
+                  <h2 class="special-title mt-5 temp-class mb-20"><span>Computer use &amp; Internet access</span></h2>
+                  <nav>
+                    <ul class="common-list">
+                      <li>
+                        <p>Four fully equipped computer labs with Internet connectivity complying with modern environment and standards.</p>
+                      </li>
+                    </ul>
+                  </nav>
+                  <h2 class="special-title mt-5 temp-class"><span>Laboratory facilities</span></h2>
+                  <nav>
+                    <ul class="common-list">
+                      <li>
+                        <p><strong>Data communication with Multi Protocols Label Switching</strong></p>
+                        <ul>
+                          <li>
+                            <p>Equipped with all required instruments and facilities to simulate a practical environment for Routing, Switching and VOIP trainings ( CISCO,L2 Switching).</p>
+                          </li>
+                          <li>
+                            <p>Equipped with all required instruments and facilities to simulate a practical environment for the trainings related to Leased Line Internet, MPLS,CCTV and Advanced Routing (CISCO).</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Sun Certified Training</strong></p>
+                        <ul>
+                          <li>
+                            <p>Training facilities for Solaris.</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Instrumentation</strong></p>
+                        <ul>
+                          <li>
+                            <p>Facilities available for practical assignments in telecommunication networks with all standard Instruments required for maintenance.</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Transmission Networks</strong></p>
+                        <ul>
+                          <li>
+                            <p>Facilities available for practical assignments in transmission network technologies such as SDH,PDH and other IP based technologies.</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>PSTN and Switching lab</strong></p>
+                        <ul>
+                          <li>
+                            <p>Facilities available for practical assignments in PSTN telephony and Switching.</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                  <h2 class="special-title mt-5 temp-class"><span>Library</span></h2>
+                  <p>The library consists of books and material on a wide range of subjects including Telecommunications, Electrical Engineering, Electronics, Computer Science, Civil Engineering, Mathematics, Management, and English Language.</p>
+                  <p>Library Facilities include reference, lending, periodicals and newspapers and audio visual sections. It also maintains a store of of books, reports, circulars, manuals, gray literature, periodicals, data books and standards as well as audio visual materials (VHS, VCD, DVD, audio tapes).</p>
+                  <p>Libraries are open on week days 9.00 am to 4.30 pm.</p>
+                </section>
+              </div>
+            </div>
+            </div>
+            
+          <div id="sc2Courses" style="display: none;">
+            <div class="row">
+              <div class="col-md-12">
+                <section class="bb-package-outer taxonomy-924">
+                  <h2 class="special-title mt-5 temp-class"><span>Courses</span></h2>
+                  <ul class="common-list">
+                    <li>Technician Certificate in Applied Telecommunication Systems</li>
+                    <li>Technician Diploma in Applied Telecommunication Systems</li>
+                    <li>Advanced Technician Diploma in Applied Telecommunication Systems</li>
+                    <li>BTEC HND in Electrical /Electronic Engineering (communication)</li>
+                    <li>Certificate in Applied Information Technology</li>
+                    <li>Certificate in Data Network Administration</li>
+                    <li>CISCO Router Configuration</li>
+                    <li>Implementation of Computer Networks</li>
+                    <li>Modern Electronics</li>
+                    <li>Digital Techniques</li>
+                    <li>Fundamentals of Microprocessors</li>
+                    <li>Certificate in Applied Telecommunication Systems</li>
+                    <li>Synchronous Digital Hierarchy (SDH)</li>
+                    <li>Pulse Code Modulation (PCM)</li>
+                    <li>Fiber Optic Transmission Systems</li>
+                    <li>Digital Microwave Radio</li>
+                    <li>Digital Transmission - I</li>
+                    <li>Digital Transmission – II</li>
+                    <li>Digital Multiplexing</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+            
+          <div id="sc2Team" style="display: none;">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="common-table table table-hovertable-responsive">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th><strong>Name</strong></th>
+                        <th><strong>Designation</strong></th>
+                        <th><strong>Contact Number </strong></th>
+                        <th><strong>E-mail</strong></th>
+                      </tr>
+                      <tr>
+                        <td>Asiri Indika</td>
+                        <td>Deputy General Manager</td>
+                        <td>011 2956726</td>
+                        <td><a href="mailto:asirikpw@slt.com.lk">asirikpw@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Manoj Herath</td>
+                        <td>Engineer</td>
+                        <td>011 2956256</td>
+                        <td><a href="mailto:manojherath @slt.com.lk">manojherath @slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Tilani Gunawardena</td>
+                        <td>Engineer</td>
+                        <td>011 2956250</td>
+                        <td><a href="mailto:tilani@slt.com.lk">tilani@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Sameera Bandaranayake</td>
+                        <td>Engineer</td>
+                        <td>011 2956026</td>
+                        <td><a href="mailto:bandaranayake@slt.com.lk">bandaranayake@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Darshana Bandara</td>
+                        <td>Engineer</td>
+                        <td>011 3605056</td>
+                        <td><a href="mailto:darshanab@slt.com.lk">darshanab@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Dilan Fernando</td>
+                        <td>Engineer</td>
+                        <td>071 6800076</td>
+                        <td><a href="mailto:dilanfdo@slt.com.lk">dilanfdo@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Nisansala Karunarathne</td>
+                        <td>Manager</td>
+                        <td>011 2956252</td>
+                        <td><a href="mailto:nisansala@slt.com.lk">nisansala@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Nadie Rohana Bernadge</td>
+                        <td>Senior Executive Assistant Engineer</td>
+                        <td>011 2958056</td>
+                        <td><a href="mailto:nadier@slt.com.lk">nadier@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Thushari Senevirathna</td>
+                        <td>Senior Assistant Engineer</td>
+                        <td>011 2957222</td>
+                        <td><a href="mailto:thushari@slt.com.lk">thushari@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Pubudu Wijerathna</td>
+                        <td>Assistant Engineer</td>
+                        <td>011 2027878</td>
+                        <td><a href="mailto:rasanka@slt.com.lk">rasanka@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Mohamed Fasley</td>
+                        <td>Telecommunication Technical Officer</td>
+                        <td>011 2956727</td>
+                        <td><a href="mailto:fasly@slt.com.lk">fasly@slt.com.lk</a></td>
+                      </tr>
+                      <tr>
+                        <td>Kelum Dahanayake</td>
+                        <td>Telecommunication Technical Officer</td>
+                        <td>011 2027869</td>
+                        <td><a href="mailto:kelumd@slt.com.lk">kelumd@slt.com.lk</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+      </div>  
+  </div></div>
+  </div>
 </section>
 <!--Study with us end-->
-
 
 <!--Footer-->
 <footer class="container-fluid mt-5 p-sm-3 custom-footer">
@@ -252,16 +472,17 @@
       });
     </script>
 <script>
-$(window).scroll(function () {
-  //set scroll position in session storage
-  sessionStorage.scrollPos = $(window).scrollTop();
+$(document).ready(function(){function e(){var e=document.getElementById("sc1-tab1"),t=document.getElementById("sc1-tab2"),n=document.getElementById("sc1-tab3"),d=document.getElementById("sc1Facilities"),c=document.getElementById("sc2Courses"),l=document.getElementById("sc2Team");function a(e,t){for(var n=0;n<t.length;n++)t[n].style.display="none";e.style.display="block"}e.addEventListener("click",function(){a(d,[c,l])}),t.addEventListener("click",function(){a(c,[d,l])}),n.addEventListener("click",function(){a(l,[d,c])})}"complete"!==document.readyState&&("loading"===document.readyState||document.documentElement.doScroll)?document.addEventListener("DOMContentLoaded",e):e()});
+    
+// Add a class of "active" to the clicked anchor tag and remove it from the others
+$ ("#tab-set1 li a").click (function () {
+$ (this).addClass ("active");
+$ ("#tab-set1 li a").not (this).removeClass ("active");
 });
-var init = function () {
-   //return scroll position in session storage
-   $(window).scrollTop(sessionStorage.scrollPos || 0)
-};
-window.onload = init;
+
+    
 </script>
+
 <script>
     
  $(document).ready(function() {
@@ -273,9 +494,9 @@ window.onload = init;
         loop: true,
         margin: 10,
         rewind: true,
-        autoplay: true,
+        autoplay: false,
         center:true,
-     startPosition: 1,
+     startPosition: 0,
          touchDrag: false,
     mouseDrag: false,
         responsive: {
@@ -292,6 +513,7 @@ window.onload = init;
             items: 3,
           },
         },
+     
  });
  o2.owlCarousel({
  	center : true,
@@ -306,55 +528,6 @@ dots: false,
  });
 });
 
-
-$("#stories-carousel").owlCarousel({
-  loop: true,
-  margin: 10,
-  rewind: true,
-  dots: true,
-  autoplay: false,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    320: {
-      items: 1,
-    },
-    768: {
-      items: 2,
-    },
-    992: {
-      items: 3,
-    },
-    1200: {
-      items: 4,
-    },
-    1400: {
-      items: 5,
-    },
-            1600: {
-      items: 6,
-    },
-  },
-});
-// Go to the next item
-$("#stories-carousel-NextBtn").click(function() {
-  $("#stories-carousel").trigger("next.owl.carousel");
-});
-// Go to the previous item
-$("#stories-carousel-PrevBtn").click(function() {
-  // With optional speed parameter
-  // Parameters has to be in square bracket '[]'
-  $("#stories-carousel").trigger("prev.owl.carousel", [300]);
-});
     </script>
-<script>
-function resetTab(){
-    
-    document.getElementById("degree-btec");
-}
-    
-    setTimeout(resetTab,200);
-</script>
 </body>
 </html>

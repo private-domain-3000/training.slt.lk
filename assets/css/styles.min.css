@@ -29,7 +29,8 @@
 	margin-top: 28px;
 }
 .study-center .theme-image img {
-	width: 538px;
+	width: 598px;
+	margin-left: -84px;
 }
 .study-center .title-block h1 {
 	font-size: 100px;
@@ -50,7 +51,9 @@
 	margin-top: 82px;
 }
 .study-center .theme-image img {
-	width: 517px;
+	width: 599px;
+	margin-left: -316px;
+	margin-top: -50px;
 }
 }
 @media (max-width: 767px) {
@@ -74,11 +77,11 @@
 	max-width: 327px;
 }
 .hero-banner-area {
-	height: 258px;
+	height: 298px;
 	background-image: url("../img/SLT-NEBULA-HOME.png");
-	background-position: center 47%;
+	background-position: center 50%;
 	background-repeat: no-repeat;
-	background-size: 69vw;
+	background-size: 69vw 17vw;
 }
 .hero-below-menu li {
 	width: 32%;
@@ -145,13 +148,10 @@
 	top: -24px;
 	left: 0;
 	bottom: 100px;
-	right: calc((100% - 1140px) / 2);
+	right: 0;
 	border-radius: 0 50px 0 0;
 }
-.theme-image img {
-	max-height: 465px;
-	float: right;
-}
+
 .hero-banner-area.courses .theme-image {
 	width: 300px;
 	display: block !important;
@@ -162,7 +162,7 @@
 	position: absolute;
 	width: 100%;
 	height: 126px;
-	bottom: -17px;
+	bottom: 34px;
 }
 .hero-banner-area.courses .title-block h1 {
 	font-size: 118px;
@@ -224,19 +224,7 @@
 	padding: 0 83px 176px 72px;
 	background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
 }
-.quali-offer {
-	display: block !important;
-	justify-content: space-evenly;
-}
-.quali-offer li p {
-	padding: 27px;
-	background: #fff;
-	border-radius: 65px 19px 19px 62px;
-	font-size: 14px;
-	/* font-weight: bold; */
-	text-align: center;
-	box-shadow: 1px 1px 22px -14px black;
-}
+
 .download-text button {
 	font-size: 14px;
 	margin: 5px 0;
@@ -265,9 +253,53 @@
 }
 .study-center .title-block {
 	position: absolute;
-	left: 4vw;
-	bottom: -64px;
-	text-align: right;
+	left: 44vw;
+	/* bottom: 35px; */
+	/* text-align: right; */
+}
+.special-title {
+	margin-bottom: 10px !important;
+	font-size: 21px !important;
+}
+.download-text .btn {
+	margin-bottom: 11px;
+	font-size: 16px;
+}
+.title-block.study-center h1.part1 {
+	font-size: 98px;
+	line-height: 0.8;
+	margin-top: 102px;
+	margin-left: -40px;
+}
+.title-block.study-center h1.part2 {
+	font-size: 86px;
+	line-height: 0.8;
+	margin-top: 0;
+	margin-left: -13px;
+}
+.study-center.tabs-container ul li a {
+	padding: 10px 55px;
+	border: 1px solid;
+	margin: 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+}
+.study-center.tabs-container ul li a {
+	padding: 10px 18px;
+	border: 3px solid #c4c4c4;
+	margin: 0 11px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 0 none;
+	border-radius: 16px 16px 0 0;
+	position: relative;
+}
+.study-center.tabs-container ul li a.active {
+	border-bottom: 3px solid #fff !important;
+	margin-bottom: -3px;
+	border: 3px solid #28a3e7;
 }
 }
 
@@ -280,9 +312,9 @@
 .hero-banner-area.courses .title-block {
 	display: block !important;
 	position: absolute;
-	width: 100%;
-	height: 126px;
-	bottom: -17px;
+	/* width: 100%; */
+	/* height: 126px; */
+	bottom: 33px;
 }
 .hero-banner-area.courses .title-block h1 {
 	font-size: 21vw;
@@ -291,12 +323,13 @@
 	text-shadow: 1px 7px 9px #00000061;
 }
 .study-center .theme-image img {
-	height: 298px;
+	height: 348px;
 }
 .study-center .title-block {
 	position: absolute;
-	bottom: -18px;
+	/* bottom: -18px; */
 	/* font-size: 99vw; */
+	left: 0;
 }
 .study-center .title-block h1 {
 	color: white;
@@ -305,6 +338,12 @@
 	font-weight: bold;
 	text-shadow: 1px 3px 11px black;
 	text-align: right;
+}
+.courses .theme-image img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 304px;
 }
 
 
@@ -358,7 +397,7 @@
   }
 
 }
-@media (min-width: 576px) {
+@media ( min-width : 576px ){
   .logo img {
     width: 219px;
   }
@@ -367,11 +406,7 @@
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	background-size: 41%;
-	height: 339px;
-}
-.theme-image img {
-	max-height: 390px;
-	float: right;
+	height: 302px;
 }
 
    
@@ -466,10 +501,7 @@
 	right: calc((100% - 1140px) / 2);
 	border-radius: 0 50px 0 0;
 }
-.theme-image img {
-	max-height: 465px;
-	float: right;
-}
+
     
 .courses .title-block h1 {
 	margin: 10% 0;
@@ -535,14 +567,6 @@
 #courses-carousal .owl-item.center .university-details ul {
 	display: flex;
 }
-.quali-offer li p {
-	padding: 25px;
-	background: #e3e3e3;
-	border-radius: 48px;
-	font-size: 17px;
-	/* font-weight: bold; */
-	text-align: center;
-}
 .course-extract {
 	padding: 0 83px 176px 72px;
 	background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
@@ -563,6 +587,58 @@
 	font-weight: bold;
 	border-radius: 10px 10px 0 0;
 	font-size: 18px;
+}
+.courses .theme-image img {
+	max-height: 390px;
+	/* height: 200px !important; */
+	margin: auto;
+	float: right;
+}
+.uni-text-block {
+	border-left: 3px solid;
+	padding-left: 21px;
+}
+.title-block.study-center h1.part1 {
+	font-size: 130px;
+	line-height: 0.8;
+	margin-top: 43px;
+	margin-left: -155px;
+}
+.title-block.study-center h1.part2 {
+	font-size: 113px;
+	line-height: 0.8;
+	margin-top: 0;
+	margin-left: -102px;
+}
+.study-center.tabs-container ul li a {
+	padding: 10px 55px;
+	border: 1px solid;
+	margin: 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+}
+.study-center.tabs-container ul li a {
+	padding: 11px 26px;
+	border: 3px solid #c4c4c4;
+	margin: 0 12px;
+	font-size: 21px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 0 none;
+	border-radius: 16px 16px 0 0;
+	position: relative;
+}
+.study-center.tabs-container ul li a.active {
+	border-bottom: 3px solid #fff !important;
+	margin-bottom: -3px;
+	border: 3px solid #28a3e7;
+}
+.container-fluid.study-center2 {
+	background: url("../img/study-centeres-bg.png") bottom left no-repeat;
+	background-size: 25% auto;
+	margin-bottom: -48px;
+	padding-bottom: 48px;
 }
 
 }
@@ -654,10 +730,6 @@
 	right: calc((100% - 1140px) / 2);
 	border-radius: 0 50px 0 0;
 }
-.theme-image img {
-	max-height: 390px;
-	float: right;
-}
     
 .courses .title-block h1 {
 	margin: 6% 0;
@@ -707,15 +779,7 @@
 	min-height: 1000px;
 	background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
 }
-.quali-offer li p {
-	padding: 27px;
-	background: #fff;
-	border-radius: 65px 19px 19px 62px;
-	font-size: 14px;
-	/* font-weight: bold; */
-	text-align: center;
-	box-shadow: 1px 1px 22px -14px black;
-}
+
 .course-extract {
 	padding: 0 59px 114px 48px;
 	background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
@@ -727,6 +791,54 @@
 	line-height: 1;
 	margin-left: -61px;
 	margin-top: 85px;
+}
+.courses .theme-image img {
+	max-height: 390px;
+	/* height: 200px !important; */
+	margin: auto;
+	float: right;
+}
+.title-block.study-center h1.part1 {
+	font-size: 128px;
+	line-height: 0.8;
+	margin-top: 58px;
+	margin-left: -89px;
+}
+.title-block.study-center h1.part2 {
+	font-size: 105px;
+	line-height: 0.8;
+	margin-top: 0;
+	margin-left: -23px;
+}
+.study-center.tabs-container ul li a {
+	padding: 10px 55px;
+	border: 1px solid;
+	margin: 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+}
+.study-center.tabs-container ul li a {
+	padding: 11px 46px;
+	border: 3px solid #c4c4c4;
+	margin: 0 20px;
+	font-size: 21px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 0 none;
+	border-radius: 16px 16px 0 0;
+	position: relative;
+}
+.study-center.tabs-container ul li a.active {
+	border-bottom: 3px solid #fff !important;
+	margin-bottom: -3px;
+	border: 3px solid #28a3e7;
+}
+.container-fluid.study-center2 {
+	background: url("../img/study-centeres-bg.png") bottom left no-repeat;
+	background-size: 25% auto;
+	margin-bottom: -48px;
+	padding-bottom: 48px;
 }
 }
 .navbar-light .navbar-toggler-icon {
@@ -807,17 +919,12 @@
 	font-weight: bold;
 	color: #6c6c6c;
 }
-    
-.theme-image img {
-	max-height: 390px;
-	float: right;
-}
-    
+ 
 .courses .title-block h1 {
-	margin: 2% 0;
-	color: white;
-	font-weight: bolder;
-	font-size: 110px;
+    margin: 2% 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 129px;
 }
 #courses-carousal .owl-item.center .university-details {
 	display: block !important;
@@ -861,15 +968,7 @@
 	min-height: 1000px;
 	background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
 }
-.quali-offer li p {
-	padding: 27px;
-	background: #fff;
-	border-radius: 65px 19px 19px 62px;
-	font-size: 14px;
-	/* font-weight: bold; */
-	text-align: center;
-	box-shadow: 1px 1px 22px -14px black;
-}
+
 .course-extract {
 	padding: 0 83px 176px 72px;
 	background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
@@ -887,6 +986,52 @@
 	color: white;
 	font-weight: bold;
 }
+.courses .theme-image img {
+	max-height: 390px;
+	/* height: 200px !important; */
+	margin: auto;
+	float: right;
+}
+.theme-image img {
+	max-height: 390px;
+	height: 390px;
+	margin-left: -25px;
+}
+.title-block.study-center h1.part1 {
+	font-size: 134px;
+	line-height: 0.8;
+	margin-top: 119px;
+	margin-left: -65px;
+}
+.title-block.study-center h1.part2 {
+	font-size: 126px;
+	line-height: 0.8;
+	margin-top: 0;
+	margin-left: -23px;
+}
+.study-center.tabs-container ul li a {
+	padding: 15px 55px;
+	border: 3px solid #c4c4c4;
+	margin: 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 0 none;
+	border-radius: 16px 16px 0 0;
+	position: relative;
+}
+.study-center.tabs-container ul li a.active {
+	border-bottom: 3px solid #fff !important;
+	margin-bottom: -3px;
+	border: 3px solid #28a3e7;
+}
+.container-fluid.study-center2 {
+	background: url("../img/study-centeres-bg.png") bottom left no-repeat;
+	background-size: 25% auto;
+	margin-bottom: -48px;
+	padding-bottom: 48px;
+}
+
 
 }
 .my-account-links .nav-item .nav-link {
@@ -984,6 +1129,7 @@
 }
 .footer-link:hover {
   text-decoration: underline;
+    color: white;
 }
 /* footer style end */
 .affiliations-img {
@@ -1264,15 +1410,43 @@ ul.affliation-block li {
 #courses-carousal-content .uni-logo-block {
 	padding-right: 30px;
 }
-.quali-offer {
-	display: flex;
-	justify-content: space-evenly;
-}
 .quali-offer li {
-	padding: 19px 21px 0px 25px;
-	/* margin: 5px; */
-	background: url("../img/course-study/specialTouch_4.png") top left no-repeat;
-	background-size: 77px;
+	width: 32%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	min-width: 365px;
+	margin: 10px 0;
+}
+.quali-offer li p {
+	padding: 0 10px 0 37px;
+	text-align: left;
+	display: block;
+}
+.common-list li {
+	position: relative;
+	padding: 0px 10px 0 38px;
+	margin-bottom: 10px;
+}
+.quali-offer li p:before, .common-list > li:before{
+    content: url("../img/bullet-image.jpg");
+    width: 26px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.common-list li ul li:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: #0046A6;
+    border-radius: 10px
 }
 .course-details h2 {
     background: -webkit-linear-gradient(#4c5dce, #38acf4);
@@ -1393,16 +1567,16 @@ ul.affliation-block li {
 	font-weight: bold;
 	color: #6c6c6c;
 }
-.theme-image img {
-	max-height: 465px;
-	float: right;
-}
+
     
 .courses .title-block h1 {
-	margin: 10% 0;
-	color: white;
-	font-weight: bolder;
-	font-size: 136px;
+    margin-top: 1%;
+    margin-right: 0;
+    margin-left: -71px;
+    margin-bottom: 10%;
+    color: white;
+    font-weight: bolder;
+    font-size: 189px;
 }
 #courses-carousal .owl-item.center .university-details {
 	display: block !important;
@@ -1443,28 +1617,107 @@ ul.affliation-block li {
 	margin: auto;
 }
 
+
+
 .container-fluid.study-with-align-content {
 	min-height: 1000px;
 	background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%
-}
-.quali-offer li p {
-	padding: 27px;
-	background: #fff;
-	border-radius: 65px 19px 19px 62px;
-	font-size: 14px;
-	/* font-weight: bold; */
-	text-align: center;
-	box-shadow: 1px 1px 22px -14px black;
 }
 .course-extract {
 	padding: 0 83px 176px 72px;
 	background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
 }
-.title-block.study-center h1 {
-	font-size: 139px;
+.title-block.study-center h1.part1 {
+	font-size: 171px;
 	line-height: 0.8;
 	margin-top: 119px;
-	margin-left: -74px;
+	margin-left: -72px;
+}
+.title-block.study-center h1.part2 {
+	font-size: 162px;
+	line-height: 0.8;
+	margin-top: 0;
+	margin-left: -23px;
+}
+.courses .theme-image img {
+	max-height: 465px;
+	/* height: 200px !important; */
+	margin: auto;
+}
+.theme-image img {
+	max-height: 490px;
+	height: 465px;
+	margin-left: -25px;
+}
+.study-center.tabs-container ul li a {
+	padding: 15px 55px;
+	border: 3px solid #c4c4c4;
+	margin: 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 0 none;
+	border-radius: 16px 16px 0 0;
+	position: relative;
+}
+.study-center.tabs-container ul li a.active {
+	border-bottom: 3px solid #fff !important;
+	margin-bottom: -3px;
+	border: 3px solid #28a3e7;
+}
+.container-fluid.study-center2 {
+	background: url("../img/study-centeres-bg.png") bottom left no-repeat;
+	background-size: 25% auto;
+	margin-bottom: -48px;
+	padding-bottom: 48px;
 }
     
+}
+
+.footer-container {
+}
+.courses .theme-image {
+	display: block;
+	max-height: 200px;
+	text-align: center;
+}
+.uni-logo-block {
+	text-align: center;
+    margin-bottom: 20px;
+}
+.common-table table {
+	width: 100%;
+}
+.common-table th, .common-table td {
+	padding: 20px;
+}
+.study-center.tabs-container {
+	text-align: center;
+}
+.study-center.tabs-container ul li {
+	display: inline-block;
+}
+.study-center.tabs-container .tab-set {
+	border-bottom: 1px solid;
+	margin-bottom: 30px;
+}
+.study-center.tabs-container .tab-set {
+	border-bottom: 3px solid #28a3e7;
+	margin-bottom: 30px;
+}
+.study-center.tabs-container ul li a::before {
+	content: url("../img/tab-corner.png");
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	/* background: red; */
+	left: -25px;
+	top: -16px;
+}
+.study-center2 #courses-carousal a {
+	text-decoration: none;
+}
+.study-center2 #courses-carousal .university-badge p:hover {
+	text-decoration: underline;
 }

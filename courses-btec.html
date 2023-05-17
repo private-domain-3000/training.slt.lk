@@ -30,7 +30,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav main-menu">
-              <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="courses-new2.html">Courses</a>
+              <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="courses.html">Courses</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="study-centers.html">Study Centers</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="life-at-nebula.html">Life At Nebula</a>
               <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="#">News And Events</a>
@@ -288,7 +288,7 @@
 </section>
 <!--Study with us end-->
 
-<section class="container-fluid study-with-align-content">
+<section class="container-fluid study-with-align-content" id="ss-details">
   <div class="container">
       <h1 class="text-center">BTEC</h1>
           <hr>
@@ -298,6 +298,7 @@
           </div>
           <div class="col-md-9 uni-text-block">The BTEC HND is a pre-degree, professional qualification awarded by Pearson, UK. It is a globally recognized prestigious vocational qualification, preparing students for both Degree education and Employment. Qualifiers can get admissions to the 3rd year of B.Sc. or B.Eng. in more than 100 universities in UK, USA or Australia. </div>
         </div>
+        <h2 class="special-title mt-5"><span>Courses to choose from</span></h2>
         <div class="row mt-5 course-details mb30" id="degree-btec">
           <ul class="nav course-details-tabs nav-tabs d-flex justify-content-center mb30" id="degree2-tab" role="tablist">
             
@@ -462,11 +463,11 @@
   <!-- Footer content goes here -->
   <div class="container">
     <div class="row mt-md-5 mb-5">
-      <div class="col-sm-12 col-md-4 mt-md-5 mb-5 footer-logo-cont">
-        <img src="assets/img/SLT-NEBULA-HOME.png" alt="banner" class="img-fluid" style="width:75%;">
+      <div class="col-sm-12 col-md-4 mt-md-5 mb-5 footer-logo-cont xs-text-center">
+        <img src="assets/img/SLT-NEBULA-HOME.png" alt="banner" class="img-fluid m-auto align-items-center" style="width:75%;">
       </div>
       <div class="col-sm-12 col-md-4 mt-md-5 mt-sm-5 mb-5 footer-link-cont">
-        <div style="display: flex; justify-content: space-between">
+        <div class="footer-container xs-ml20 xs-mr20" style="display: flex; justify-content: space-between">
           <div class="vstack gap-3">
             <a href="" class="footer-link">Courses</a>
             <a href="" class="footer-link">Study Centers</a>
@@ -487,7 +488,7 @@
                 justify-content: center;
                 flex-direction: column;
               ">
-            <div class="hstack gap-5 mb-3 justify-content-center">
+            <div class="hstack mb-3 justify-content-evenly gap-4">
               <i class="fa fa-facebook" aria-hidden="true" style="color: white"></i>
               <i class="fa fa-instagram" aria-hidden="true" style="color: white"></i>
               <i class="fa fa-whatsapp" aria-hidden="true" style="color: white"></i>
@@ -495,7 +496,7 @@
               <i class="fa fa-youtube" aria-hidden="true" style="color: white"></i>
               <i class="fa fa-twitter" aria-hidden="true" style="color: white"></i>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63381.85274754356!2d79.87706782778876!3d6.8466778555178465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a44e52d42bf%3A0x919449f9c6f8b403!2sSri%20Lanka%20Telecom%20-%20Nugegoda!5e0!3m2!1sen!2slk!4v1682847970261!5m2!1sen!2slk" width="auto" height="80" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63381.85274754356!2d79.87706782778876!3d6.8466778555178465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a44e52d42bf%3A0x919449f9c6f8b403!2sSri%20Lanka%20Telecom%20-%20Nugegoda!5e0!3m2!1sen!2slk!4v1682847970261!5m2!1sen!2slk" width="auto" height="80" class="full-width" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -524,15 +525,17 @@
       });
     </script>
 <script>
-$(window).scroll(function () {
-  //set scroll position in session storage
-  sessionStorage.scrollPos = $(window).scrollTop();
+window.onload = function() {
+$(function() {
+var target = $('#ss-details');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 2000);
+return false;
+}
 });
-var init = function () {
-   //return scroll position in session storage
-   $(window).scrollTop(sessionStorage.scrollPos || 0)
 };
-window.onload = init;
 </script>
 <script>
     

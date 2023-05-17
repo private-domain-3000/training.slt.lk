@@ -170,6 +170,18 @@
 	font-weight: bold;
 	text-shadow: 1px 7px 9px #00000061;
 }
+.hero-banner-area.about-us .title-block h1 {
+	font-size: 118px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 7px 9px #00000061;
+}
+.hero-banner-area.about-us .title-block h1 {
+	font-size: 118px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 7px 9px #00000061;
+}
 #courses-carousal .owl-item.center .university-details {
 	display: block !important;
 	position: absolute;
@@ -301,6 +313,24 @@
 	margin-bottom: -3px;
 	border: 3px solid #28a3e7;
 }
+.about-us .theme-image img {
+	height: 302px;
+	position: absolute;
+	margin-left: -6px;
+}
+.hero-banner-area.about-us .title-block h1 {
+	font-size: 14vw;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 7px 9px #00000061;
+	line-height: 12vw;
+	width: 26vw;
+	text-align: right;
+	margin-top: 65px;
+}
+.container-fluid.life-section2, .container-fluid.life-section3, .container-fluid.life-section4 {
+	background: none !important;
+}
 }
 
 @media (max-width: 575px) {
@@ -317,6 +347,12 @@
 	bottom: 33px;
 }
 .hero-banner-area.courses .title-block h1 {
+	font-size: 21vw;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 7px 9px #00000061;
+}
+    .hero-banner-area.about-us .title-block h1 {
 	font-size: 21vw;
 	color: white;
 	font-weight: bold;
@@ -344,6 +380,17 @@
 	bottom: 0;
 	left: 0;
 	width: 304px;
+}
+.hero-banner-area.about-us .title-block h1 {
+	font-size: 19vw;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 7px 9px #00000061;
+	position: absolute;
+	bottom: 28px;
+	left: 0;
+	width: 101%;
+	text-align: center;
 }
 
 
@@ -509,6 +556,15 @@
 	font-weight: bolder;
 	font-size: 89px;
 }
+.about-us .title-block h1 {
+	margin: 42px 0 0 35px;
+	color: white;
+	font-weight: bolder;
+	font-size: 101px;
+	text-align: right;
+	line-height: 0.8;
+	width: 181px;
+}
 #courses-carousal {
 	width: 80%;
 	margin: auto;
@@ -640,7 +696,12 @@
 	margin-bottom: -48px;
 	padding-bottom: 48px;
 }
-
+.about-us .theme-image img {
+	height: 302px;
+	/* position: absolute; */
+	bottom: 30px;
+	margin-left: 70px;
+}
 }
 @media (min-width: 992px) {
   .logo img {
@@ -736,6 +797,21 @@
 	color: white;
 	font-weight: bolder;
 	font-size: 101px;
+}
+    .about-us .title-block h1 {
+	margin: 6% 0;
+	color: white;
+	font-weight: bolder;
+	font-size: 101px;
+}
+.about-us .title-block h1 {
+	margin: 80px 0;
+	color: white;
+	font-weight: bolder;
+	font-size: 159px;
+	width: 259px;
+	line-height: 0.8;
+	text-align: right;
 }
 #courses-carousal .owl-item.center .university-details {
 	display: block !important;
@@ -840,6 +916,13 @@
 	margin-bottom: -48px;
 	padding-bottom: 48px;
 }
+.about-us .theme-image img {
+	height: 390px;
+	margin-left: 69px;
+	/* position: absolute; */
+	/* bottom: -72px; */
+}
+
 }
 .navbar-light .navbar-toggler-icon {
   color: #fff;
@@ -854,7 +937,7 @@
 	background-image: url(../../assets/img/SLT-NEBULA-HOME.png);
 	background-position: center 30%;
 	background-repeat: no-repeat;
-	background-size: 34%;
+	background-size: 47%;
 }
 
 .navbar-brand {
@@ -921,6 +1004,12 @@
 }
  
 .courses .title-block h1 {
+    margin: 2% 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 129px;
+}
+.about-us.title-block h1 {
     margin: 2% 0;
     color: white;
     font-weight: bolder;
@@ -997,6 +1086,12 @@
 	height: 390px;
 	margin-left: -25px;
 }
+.about-us .theme-image img {
+	max-height: 390px;
+	height: 390px;
+	margin-left: 129px;
+	position: static;
+}
 .title-block.study-center h1.part1 {
 	font-size: 134px;
 	line-height: 0.8;
@@ -1031,6 +1126,11 @@
 	margin-bottom: -48px;
 	padding-bottom: 48px;
 }
+.study-with-align.about.us {
+	background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%, url("../img/about-set-circles.png") no-repeat right bottom /15%;
+	/* background-size: 32%; */
+}
+
 
 
 }
@@ -1578,6 +1678,18 @@ ul.affliation-block li {
     font-weight: bolder;
     font-size: 189px;
 }
+.about-us .title-block h1 {
+	margin-top: 61px;
+	margin-right: 0;
+	margin-left: -43px;
+	margin-bottom: 10%;
+	color: white;
+	font-weight: bold;
+	font-size: 189px;
+	width: 344px;
+	line-height: 0.8;
+	text-align: right;
+}
 #courses-carousal .owl-item.center .university-details {
 	display: block !important;
 	position: absolute;
@@ -1649,6 +1761,12 @@ ul.affliation-block li {
 	height: 465px;
 	margin-left: -25px;
 }
+.about-us .theme-image img {
+	max-height: 490px;
+	height: 465px;
+	margin-left: 126px;
+	position: static;
+}
 .study-center.tabs-container ul li a {
 	padding: 15px 55px;
 	border: 3px solid #c4c4c4;
@@ -1666,10 +1784,14 @@ ul.affliation-block li {
 	border: 3px solid #28a3e7;
 }
 .container-fluid.study-center2 {
-	background: url("../img/study-centeres-bg.png") bottom left no-repeat;
+	background: url("../img/study-centeres-bg.png") left 548px no-repeat;
 	background-size: 25% auto;
 	margin-bottom: -48px;
 	padding-bottom: 48px;
+}
+.study-with-align.about.us {
+	background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%, url("../img/about-set-circles.png") no-repeat right bottom /15%;
+	/* background-size: 32%; */
 }
     
 }
@@ -1720,4 +1842,139 @@ ul.affliation-block li {
 }
 .study-center2 #courses-carousal .university-badge p:hover {
 	text-decoration: underline;
+}
+.hero-banner-area.about-us {
+	background: none;
+}
+.employee-card {
+	height: 29rem;
+	width: 21rem;
+	overflow: hidden;
+	border-radius: 2rem;
+	border-style: solid;
+	border-width: 0rem;
+	border-color: rgba(0, 102, 255, 253);
+	background-color: #ececec;
+	box-shadow: 2px 2px 20px;
+	position: relative;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.employee-card-top {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 183, 255),
+    rgb(0, 17, 255)
+  );
+  height: 45%;
+  width: 100%;
+  box-shadow: 2px 2px 20px;
+}
+
+.employee-card-circle {
+  height: 15rem;
+  width: 15rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 183, 255),
+    rgb(0, 17, 255)
+  );
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0;
+  position: absolute;
+  top: 5%;
+  left: 3.1rem;
+}
+
+.employee-card-circle-image {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: aliceblue; */
+  position: relative;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.employeDetails {
+  margin-top: 20%;
+  /* padding: 4%; */
+}
+
+.employeeFirstName {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.employeeDesignation {
+  font-size: 18px;
+  text-align: center;
+}
+.employeeDept {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 7px;
+  color: #7c7c7c;
+}
+
+.employee-phone-mail {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.employee-card-description {
+	text-align: left;
+	font-size: 20px;
+	/* margin-top: 3rem; */
+	width: 22rem;
+	margin: auto;
+	margin-top: 26px;
+}
+
+#first-card-description {
+  margin-top: 5rem;
+}
+
+.circle-set-img {
+  position: relative;
+  left: 15rem;
+  top: 25rem;
+}
+.study-with-align.life-at-nebula {
+	background: url("../img/life/nebula-bg.jpg") no-repeat top left / 100% auto;
+}
+.container-fluid.life-section2 {
+	background: url("../img/life/leftTop_03.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 39%;
+}
+.container-fluid.life-section3 {
+	background: url("../img/life/middleRight_06.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 30%;
+}
+.container-fluid.life-section4 {
+	background: url("../img/life/leftTop_03.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 39%;
+}
+.study-with-align.news {
+	background: white;
+}
+.white-panel {
+	padding: 36px;
+	border: 6px solid #c5e9ff;
+	border-radius: 17px;
+}
+nav .navbar-nav a.active {
+	color: #00b9ff !important;
+	border-bottom: 2px solid #01b2fc !important;
+	z-index: 99;
 }

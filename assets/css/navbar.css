@@ -7,9 +7,9 @@ nav .navbar-nav a {
 }
 
 nav .navbar-nav a.active {
-  color: #37384e !important;
-  border-bottom: 2px solid #448c74 !important;
-  z-index: 99;
+	color: #00b9ff !important;
+	border-bottom: 2px solid #01b2fc !important;
+	z-index: 99;
 }
 
 .sign-in {

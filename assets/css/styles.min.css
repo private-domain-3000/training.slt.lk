@@ -1021,7 +1021,7 @@
   .upcoming-course {
     position: absolute;
     bottom: -78px;
-    right: 0;
+    right: -12px;
   }
   .carousel-control-prev {
     left: -75px;
@@ -1249,6 +1249,12 @@
   background-color: #fff;
 }
 @media (min-width: 1200px) {
+
+  .study-with-us-description{
+    position:relative;
+    bottom: -35px;
+  }
+
   .logo img {
     width: 269px;
   }
@@ -1656,15 +1662,16 @@
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
 }
 .card-rounded.bg1 {
-  background-image: url("../img/istockphoto-1363688316-612x612.jpg");
+  background-image: url("../img/course-study/course-image-5.png");
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: 88px -68px;
 }
 .card-rounded.bg2 {
-  background-image: url("../img/istockphoto-1363688316-612x612.jpg");
+  background-image: url("../img/course-study/course-image-6.png");
   background-position: 87px 68px;
 }
 .card-rounded.bg3 {
-  background-image: url("../img/istockphoto-1363688316-612x612.jpg");
+  background-image: url("../img/course-study/course-image-7.png");
   background-position: 293px 341px;
 }
 /* 
@@ -1813,13 +1820,15 @@ commmon */
   font-weight: bold;
 }
 .container-fluid.header {
-  padding-top: 15px;
+	/* padding-top: 15px; */
+	background-color: #012241d9;
 }
 .navbar-toggler {
   padding: 20px;
 }
 #navbar-wrapper {
   position: relative;
+  margin-bottom: 15px;
 }
 .up-cou-outer {
   position: relative;
@@ -1833,7 +1842,9 @@ ul.affliation-block li {
   padding: 19px;
 }
 .affliation-block {
-  text-align: center;
+  text-align: left;
+  position: relative;
+  margin-left: -22px;
 }
 .faq-block .accordion-item {
   border-bottom: 2px solid #d9d9d9 !important;
@@ -1856,9 +1867,10 @@ ul.affliation-block li {
   background: url("../img/upcoming-bg.jpg");
   background-size: 100% 100%;
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: bold;
   margin: 0;
+  /* height: 100px; */
 }
 #courses-carousal .owl-item .university-badge {
   padding: 5px 30px;
@@ -2017,8 +2029,8 @@ ul.affliation-block li {
   }
   .upcoming-course {
     position: absolute;
-    bottom: -78px;
-    right: 0;
+    bottom: -77px;
+    right: -12px;
   }
   .student-stories-carousal {
     position: relative;
@@ -2401,3 +2413,99 @@ ul.affliation-block li {
 .home .hero-banner-area {
   background-image: url(../../assets/img/SLT-NEBULA-HOME.png);
 }
+
+/* .container-study-with-us {
+	margin-top: 50px;
+  padding: 0px;
+} */
+
+.studywithUs-cards {
+	background-color: #ffffffa1;
+	/* margin: 20px; */
+	/* padding: -5px; */
+	border-radius: inherit;
+}
+
+/* .study-with-us-description{
+	position: absolute;
+	bottom: 20px;
+} */
+
+/* @media only screen and (min-width: 992px) {
+
+  .study-with-us-description {
+    position: relative;
+    bottom: -145px;
+    font-size: 18px !important;
+  } */
+
+@media(min-width:992px){
+
+  
+
+}
+
+@media (min-width: 1200px) {
+
+  .study-with-us{
+
+    margin-top: 50px;
+
+  }
+
+  .study-with-us-description{
+    margin-top: 40px;
+    font-size: 18px !important;
+  }
+  .container-study-with-us {
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  
+
+  .affiliations {
+    margin-top: 6rem !important;
+    margin-bottom:6rem!important;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .study-with-us{
+
+    margin-top: 50px;
+
+  }
+
+  .study-with-us-description{
+    margin-top: 50px;
+    font-size: 18px !important;
+  }
+  .harvard {
+    
+  }
+
+  .hertfordshire {
+ 
+  }
+  .stanford {
+   
+  }
+
+  .oxford1 {
+    
+  }
+
+  .unimas {
+   
+  }
+
+  .oxford2 {
+   
+  }
+
+}
+
+

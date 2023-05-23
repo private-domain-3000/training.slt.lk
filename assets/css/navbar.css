@@ -6,11 +6,6 @@ nav .navbar-nav a {
   z-index: 99;
 }
 
-nav .navbar-nav a.active {
-	color: #00b9ff !important;
-	border-bottom: 2px solid #01b2fc !important;
-	z-index: 99;
-}
 
 .sign-in {
   margin-right: 0 !important;

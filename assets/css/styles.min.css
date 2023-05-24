@@ -2546,6 +2546,7 @@ ul.affliation-block li {
   font-weight: bold;
   padding: 6px 20px;
   border-radius: 28px;
+  box-shadow: 5px 9px 7px 0px;
 }
 .home .hero-banner-area {
   background-image: url(../../assets/img/SLT-NEBULA-HOME.png);

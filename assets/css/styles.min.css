@@ -21,14 +21,14 @@
     height: 100px;
     object-fit: contain;
   }
-#navbarNavAltMarkup {
-	margin-left: -15px;
-	margin-right: -15px;
-	padding: 35px;
-	background: #0e65d6;
-	margin-top: 7px;
-	position: relative;
-}
+  #navbarNavAltMarkup {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 35px;
+    background: #0e65d6;
+    margin-top: 7px;
+    position: relative;
+  }
   .login-menu {
     position: absolute;
     right: -12px;
@@ -59,6 +59,30 @@
   }
 }
 @media (max-width: 991px) {
+  #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    height: 90px;
+  }
+
+  .study-centers #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    height: 40px;
+  }
+
   #courses-carousal .owl-item .card-rounded > img {
     border-radius: 15px 15px 0 0 !important;
     border: 1px solid #2ab1ee;
@@ -92,7 +116,11 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .navigation-clean.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item {
+  .navigation-clean.navbar-dark
+    .navbar-nav
+    .show
+    .dropdown-menu
+    .dropdown-item {
     color: #fff;
   }
   .container-fluid.hero-outer-container {
@@ -123,7 +151,7 @@
   }
   .hero-below-menu li a {
     font-weight: bold;
-    color: #01489B;
+    color: #01489b;
     text-decoration: none;
     font-size: 12px;
   }
@@ -250,7 +278,7 @@
   #courses-carousal .owl-item .university-badge img {
     display: block;
     width: auto;
-    max-height: 80px;
+    max-height: 40px;
     margin: auto;
   }
   #courses-carousal {
@@ -265,7 +293,9 @@
   }
   .course-extract {
     padding: 0 83px 176px 72px;
-    background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
+    background: url("../img/course-extract-bg2.png") no-repeat bottom left /
+        100%,
+      url("../img/course-extract-bg1.png") no-repeat top left / 100%;
   }
   .download-text button {
     font-size: 14px;
@@ -376,7 +406,9 @@
     text-align: right;
     margin-top: 53px;
   }
-  .container-fluid.life-section2, .container-fluid.life-section3, .container-fluid.life-section4 {
+  .container-fluid.life-section2,
+  .container-fluid.life-section3,
+  .container-fluid.life-section4 {
     background: none !important;
   }
   .nav-link {
@@ -441,24 +473,25 @@
   .news .title-block {
     width: 49%;
   }
-.contact .theme-image, .contact .title-block {
-	width: 50%;
-}
-.contact .theme-image img {
-	max-height: 257px;
-	height: 240;
-	margin-left: -93px;
-}
-.contact .title-block h1 {
-	font-size: 93px;
-	font-weight: bold;
-	color: white;
-	margin-left: -85px;
-	width: 177px;
-	text-align: right;
-	line-height: 74px;
-	margin-top: 68px;
-}
+  .contact .theme-image,
+  .contact .title-block {
+    width: 50%;
+  }
+  .contact .theme-image img {
+    max-height: 257px;
+    height: 240;
+    margin-left: -93px;
+  }
+  .contact .title-block h1 {
+    font-size: 93px;
+    font-weight: bold;
+    color: white;
+    margin-left: -85px;
+    width: 177px;
+    text-align: right;
+    line-height: 74px;
+    margin-top: 68px;
+  }
 }
 @media (max-width: 575px) {
   .hero-banner-area.courses .theme-image {
@@ -511,22 +544,22 @@
     text-shadow: 1px 3px 11px black;
     text-align: right;
   }
-.hero-banner-area.about-us .title-block h1 {
-	font-size: 16vw;
-	color: white;
-	font-weight: bold;
-	text-shadow: 1px 7px 9px #00000061;
-	/* position: absolute; */
-	/* bottom: 28px; */
-	/* left: 0; */
-	/* width: 101%; */
-	/* text-align: right; */
-	/* margin-left: -21px; */
-	/* line-height: 61px; */
-	width: 100%;
-	z-index: 500;
-	text-align: center;
-}
+  .hero-banner-area.about-us .title-block h1 {
+    font-size: 16vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 7px 9px #00000061;
+    /* position: absolute; */
+    /* bottom: 28px; */
+    /* left: 0; */
+    /* width: 101%; */
+    /* text-align: right; */
+    /* margin-left: -21px; */
+    /* line-height: 61px; */
+    width: 100%;
+    z-index: 500;
+    text-align: center;
+  }
   .life-at-nebula .theme-image img {
     width: 380px;
     margin-left: -206px;
@@ -577,45 +610,46 @@
     position: absolute;
     margin-left: -21px;
   }
-.about-us .title-block {
-	position: absolute;
-	/* bottom: 10px; */
-	top: 73px;
-	width: 100%;
-}
-.contact .theme-image, .contact .title-block {
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.contact .title-block h1 {
-	font-size: 13vw;
-	font-weight: bold;
-	color: white;
-	margin-left: 0;
-	width: 100%;
-	text-align: center;
-	line-height: 74px;
-	margin-top: 134px;
-	text-shadow: 1px 1px 27px #02264a;
-}
-.contact .theme-image img {
-	max-height: 230px;
-	height: 240;
-	margin-left: -93px;
-}
-.contact .title-block h1 {
-	/* font-size: 93px; */
-	/* font-weight: bold; */
-	color: white;
-	/* margin-left: -85px; */
-	/* width: 177px; */
-	text-align: center;
-	line-height: 74px;
-	/* margin-top: 68px; */
-	font-weight: bold;
-}
+  .about-us .title-block {
+    position: absolute;
+    /* bottom: 10px; */
+    top: 73px;
+    width: 100%;
+  }
+  .contact .theme-image,
+  .contact .title-block {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contact .title-block h1 {
+    font-size: 13vw;
+    font-weight: bold;
+    color: white;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 74px;
+    margin-top: 134px;
+    text-shadow: 1px 1px 27px #02264a;
+  }
+  .contact .theme-image img {
+    max-height: 230px;
+    height: 240;
+    margin-left: -93px;
+  }
+  .contact .title-block h1 {
+    /* font-size: 93px; */
+    /* font-weight: bold; */
+    color: white;
+    /* margin-left: -85px; */
+    /* width: 177px; */
+    text-align: center;
+    line-height: 74px;
+    /* margin-top: 68px; */
+    font-weight: bold;
+  }
 }
 @media (max-width: 299px) {
   .hero-banner-area.courses .theme-image {
@@ -661,7 +695,7 @@
     width: 178px;
   }
 }
-@media (min-width : 576px) {
+@media (min-width: 576px) {
   .logo img {
     width: 219px;
   }
@@ -693,7 +727,7 @@
   }
   .hero-below-menu li a {
     font-weight: bold;
-    color: #01489B;
+    color: #01489b;
     text-decoration: none;
   }
   .hero-below-menu li a:hover {
@@ -837,15 +871,20 @@
   }
   .course-extract {
     padding: 0 83px 176px 72px;
-    background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
+    background: url("../img/course-extract-bg2.png") no-repeat bottom left /
+        100%,
+      url("../img/course-extract-bg1.png") no-repeat top left / 100%;
   }
   .container-fluid.study-with-align-content {
     min-height: 1000px;
-    background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
+    background: url("../img/course-study/courses-content-bgtop.png") no-repeat
+        top center / 100%,
+      url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%,
+      url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
   }
   .course-details .nav-tabs li {
     margin: 0 5px;
-    border: 2px solid #0784E8;
+    border: 2px solid #0784e8;
     border-bottom: 0 none;
     border-radius: 10px 10px 0 0;
   }
@@ -954,21 +993,21 @@
     margin-left: -33px;
     position: static;
   }
-.contact .theme-image img {
-	max-height: 256px;
-	height: 240;
-	margin-left: -41px;
-}
-.contact .title-block h1 {
-	font-size: 113px;
-	font-weight: bold;
-	color: white;
-	margin-left: -186px;
-	width: 214px;
-	text-align: right;
-	line-height: 84px;
-	margin-top: 51px;
-} 
+  .contact .theme-image img {
+    max-height: 256px;
+    height: 240;
+    margin-left: -41px;
+  }
+  .contact .title-block h1 {
+    font-size: 113px;
+    font-weight: bold;
+    color: white;
+    margin-left: -186px;
+    width: 214px;
+    text-align: right;
+    line-height: 84px;
+    margin-top: 51px;
+  }
 }
 @media (min-width: 992px) {
   .logo img {
@@ -991,7 +1030,7 @@
   }
   .hero-below-menu li a {
     font-weight: bold;
-    color: #01489B;
+    color: #01489b;
     text-decoration: none;
   }
   .hero-below-menu li a:hover {
@@ -1106,16 +1145,21 @@
   #courses-carousal .owl-item .university-badge img {
     display: block;
     width: auto;
-    max-height: 47px;
+    max-height: 30px;
     margin: auto;
   }
   .container-fluid.study-with-align-content {
     min-height: 1000px;
-    background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
+    background: url("../img/course-study/courses-content-bgtop.png") no-repeat
+        top center / 100%,
+      url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%,
+      url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
   }
   .course-extract {
     padding: 0 59px 114px 48px;
-    background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
+    background: url("../img/course-extract-bg2.png") no-repeat bottom left /
+        100%,
+      url("../img/course-extract-bg1.png") no-repeat top left / 100%;
   }
   .hero-outer-container.study-center {
     height: 310px;
@@ -1228,30 +1272,29 @@
     background-size: 35%;
     margin-left: -119px;
   }
-.contact .theme-image img {
-	max-height: 240px;
-	height: 240;
-	margin-left: 40px;
-}
-.contact .title-block h1 {
-	font-size: 104px;
-	font-weight: bold;
-	color: white;
-	margin-left: -227px;
-	width: 198px;
-	text-align: right;
-	line-height: 84px;
-	margin-top: 33px;
-}    
+  .contact .theme-image img {
+    max-height: 240px;
+    height: 240;
+    margin-left: 40px;
+  }
+  .contact .title-block h1 {
+    font-size: 104px;
+    font-weight: bold;
+    color: white;
+    margin-left: -227px;
+    width: 198px;
+    text-align: right;
+    line-height: 84px;
+    margin-top: 33px;
+  }
 }
 .navbar-light .navbar-toggler-icon {
   color: #fff;
   background-color: #fff;
 }
 @media (min-width: 1200px) {
-
-  .study-with-us-description{
-    position:relative;
+  .study-with-us-description {
+    position: relative;
     bottom: -35px;
   }
 
@@ -1279,7 +1322,7 @@
   }
   .hero-below-menu li a {
     font-weight: bold;
-    color: #01489B;
+    color: #01489b;
     text-decoration: none;
   }
   .hero-below-menu li a:hover {
@@ -1367,16 +1410,21 @@
   #courses-carousal .owl-item .university-badge img {
     display: block;
     width: auto;
-    max-height: 61px;
+    max-height: 30px;
     margin: auto;
   }
   .container-fluid.study-with-align-content {
     min-height: 1000px;
-    background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
+    background: url("../img/course-study/courses-content-bgtop.png") no-repeat
+        top center / 100%,
+      url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%,
+      url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
   }
   .course-extract {
     padding: 0 83px 176px 72px;
-    background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
+    background: url("../img/course-extract-bg2.png") no-repeat bottom left /
+        100%,
+      url("../img/course-extract-bg1.png") no-repeat top left / 100%;
   }
   #courses-carousal .owl-stage-outer {
     height: 624px;
@@ -1449,7 +1497,8 @@
     padding-bottom: 48px;
   }
   .study-with-align.about.us {
-    background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%, url("../img/about-set-circles.png") no-repeat right bottom /15%;
+    background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%,
+      url("../img/about-set-circles.png") no-repeat right bottom / 15%;
     /* background-size: 32%; */
   }
   nav .navbar-nav a.active {
@@ -1520,21 +1569,21 @@
     line-height: 0.8;
     text-align: right;
   }
-.contact .theme-image img {
-	max-height: 330px;
-	height: 465px;
-	margin-left: 40px;
-}
-.contact .title-block h1 {
-	font-size: 129px;
-	font-weight: bold;
-	color: white;
-	margin-left: -256px;
-	width: 246px;
-	text-align: right;
-	line-height: 109px;
-	margin-top: 71px;
-}
+  .contact .theme-image img {
+    max-height: 330px;
+    height: 465px;
+    margin-left: 40px;
+  }
+  .contact .title-block h1 {
+    font-size: 129px;
+    font-weight: bold;
+    color: white;
+    margin-left: -256px;
+    width: 246px;
+    text-align: right;
+    line-height: 109px;
+    margin-top: 71px;
+  }
 }
 .my-account-links .nav-item .nav-link {
   border-radius: 20px;
@@ -1660,6 +1709,11 @@
 .card-rounded {
   border-radius: 20px;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+  /* border: 2px solid #bbb; */
+}
+
+.study .card-rounded {
+  border: 2px solid #bbb;
 }
 .card-rounded.bg1 {
   background-image: url("../img/course-study/course-image-5.png");
@@ -1820,8 +1874,8 @@ commmon */
   font-weight: bold;
 }
 .container-fluid.header {
-	/* padding-top: 15px; */
-	background-color: #012241d9;
+  /* padding-top: 15px; */
+  background-color: #012241d9;
 }
 .navbar-toggler {
   padding: 20px;
@@ -1861,16 +1915,82 @@ ul.affliation-block li {
   padding: 0 0 20px 0;
   color: #6c6c6c;
 }
-#courses-carousal .owl-item .course-title {
+
+@media(min-width:992px)
+{#courses-carousal .owl-item .course-title {
   text-align: center;
   padding: 10px;
   background: url("../img/upcoming-bg.jpg");
   background-size: 100% 100%;
   color: white;
-  /* font-size: 20px; */
+  font-size: 12px;
   font-weight: bold;
   margin: 0;
-  /* height: 100px; */
+  height: 90px;
+}
+
+.study-centers #courses-carousal .owl-item .course-title {
+  text-align: center;
+  padding: 10px;
+  background: url("../img/upcoming-bg.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  height: 40px;
+}
+}
+
+@media(min-width:1200px)
+{#courses-carousal .owl-item .course-title {
+  text-align: center;
+  padding: 10px;
+  background: url("../img/upcoming-bg.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  height: 95px;
+}
+.study-centers #courses-carousal .owl-item .course-title {
+  text-align: center;
+  padding: 10px;
+  background: url("../img/upcoming-bg.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  height: 40px;
+}
+}
+
+@media(min-width:1400px)
+{#courses-carousal .owl-item .course-title {
+  text-align: center;
+  padding: 10px;
+  background: url("../img/upcoming-bg.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  height: 95px;
+}
+
+.study-centers #courses-carousal .owl-item .course-title {
+  text-align: center;
+  padding: 10px;
+  background: url("../img/upcoming-bg.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  height: 40px;
+}
 }
 #courses-carousal .owl-item .university-badge {
   padding: 5px 30px;
@@ -1921,7 +2041,8 @@ ul.affliation-block li {
   padding: 0px 10px 0 38px;
   margin-bottom: 10px;
 }
-.quali-offer li p:before, .common-list > li:before {
+.quali-offer li p:before,
+.common-list > li:before {
   content: url("../img/bullet-image.jpg");
   width: 26px;
   height: 27px;
@@ -1938,8 +2059,8 @@ ul.affliation-block li {
   position: absolute;
   top: 1px;
   left: 1px;
-  background: #0046A6;
-  border-radius: 10px
+  background: #0046a6;
+  border-radius: 10px;
 }
 .course-details h2 {
   background: -webkit-linear-gradient(#4c5dce, #38acf4);
@@ -2003,7 +2124,7 @@ ul.affliation-block li {
   }
   .hero-below-menu li a {
     font-weight: bold;
-    color: #01489B;
+    color: #01489b;
     text-decoration: none;
   }
   .hero-below-menu li a:hover {
@@ -2109,16 +2230,21 @@ ul.affliation-block li {
   #courses-carousal .owl-item .university-badge img {
     display: block;
     width: auto;
-    max-height: 58px;
+    max-height: 30px;
     margin: auto;
   }
   .container-fluid.study-with-align-content {
     min-height: 1000px;
-    background: url("../img/course-study/courses-content-bgtop.png") no-repeat top center / 100%, url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%, url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%
+    background: url("../img/course-study/courses-content-bgtop.png") no-repeat
+        top center / 100%,
+      url("../img/coursesPageBottomLeft_10.jpg") no-repeat bottom left / 35%,
+      url("../img/coursesPageBottomRight_07.jpg") no-repeat bottom right / 20%;
   }
   .course-extract {
     padding: 0 83px 176px 72px;
-    background: url("../img/course-extract-bg2.png") no-repeat bottom left / 100%, url("../img/course-extract-bg1.png") no-repeat top left / 100%;
+    background: url("../img/course-extract-bg2.png") no-repeat bottom left /
+        100%,
+      url("../img/course-extract-bg1.png") no-repeat top left / 100%;
   }
   .title-block.study-center h1.part1 {
     font-size: 135px;
@@ -2144,21 +2270,21 @@ ul.affliation-block li {
     height: 465px;
     margin-left: -25px;
   }
-.contact .theme-image img {
-	max-height: 350px;
-	height: 465px;
-	margin-left: 95px;
-}
-.contact .title-block h1 {
-	font-size: 150px;
-	font-weight: bold;
-	color: white;
-	margin-left: -256px;
-	width: 285px;
-	text-align: right;
-	line-height: 126px;
-	margin-top: 48px;
-}
+  .contact .theme-image img {
+    max-height: 350px;
+    height: 465px;
+    margin-left: 95px;
+  }
+  .contact .title-block h1 {
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    margin-left: -256px;
+    width: 285px;
+    text-align: right;
+    line-height: 126px;
+    margin-top: 48px;
+  }
   .study-center .theme-image img {
     max-height: 350px;
     height: 465px;
@@ -2232,7 +2358,8 @@ ul.affliation-block li {
     padding-bottom: 48px;
   }
   .study-with-align.about.us {
-    background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%, url("../img/about-set-circles.png") no-repeat right bottom /15%;
+    background: url("../img/about-us-back.jpg") no-repeat right 238px / 31%,
+      url("../img/about-set-circles.png") no-repeat right bottom / 15%;
     /* background-size: 32%; */
   }
   .home .hero-banner-area {
@@ -2243,7 +2370,8 @@ ul.affliation-block li {
     margin-left: -82px;
   }
 }
-.footer-container {}
+.footer-container {
+}
 .courses .theme-image {
   display: block;
   max-height: 351px;
@@ -2256,7 +2384,8 @@ ul.affliation-block li {
 .common-table table {
   width: 100%;
 }
-.common-table th, .common-table td {
+.common-table th,
+.common-table td {
   padding: 20px;
 }
 .study-center.tabs-container {
@@ -2304,7 +2433,11 @@ ul.affliation-block li {
   margin-top: 35px;
 }
 .employee-card-top {
-  background-image: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 17, 255));
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 183, 255),
+    rgb(0, 17, 255)
+  );
   height: 45%;
   width: 100%;
   box-shadow: 2px 2px 20px;
@@ -2312,7 +2445,11 @@ ul.affliation-block li {
 .employee-card-circle {
   height: 15rem;
   width: 15rem;
-  background-image: linear-gradient(to bottom, rgb(0, 183, 255), rgb(0, 17, 255));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 183, 255),
+    rgb(0, 17, 255)
+  );
   border-radius: 50%;
   border-style: solid;
   border-width: 0;
@@ -2420,10 +2557,10 @@ ul.affliation-block li {
 } */
 
 .studywithUs-cards {
-	background-color: #ffffffa1;
-	/* margin: 20px; */
-	/* padding: -5px; */
-	border-radius: inherit;
+  background-color: #ffffffa1;
+  /* margin: 20px; */
+  /* padding: -5px; */
+  border-radius: inherit;
 }
 
 /* .study-with-us-description{
@@ -2439,73 +2576,52 @@ ul.affliation-block li {
     font-size: 18px !important;
   } */
 
-@media(min-width:992px){
-
-  
-
+@media (min-width: 992px) {
 }
 
 @media (min-width: 1200px) {
-
-  .study-with-us{
-
+  .study-with-us {
     margin-top: 50px;
-
   }
 
-  .study-with-us-description{
+  .study-with-us-description {
     margin-top: 40px;
     font-size: 18px !important;
   }
   .container-study-with-us {
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 0px;
   }
 
-  
-
   .affiliations {
     margin-top: 6rem !important;
-    margin-bottom:6rem!important;
+    margin-bottom: 6rem !important;
   }
-
 }
 
 @media (min-width: 1400px) {
-
-  .study-with-us{
-
+  .study-with-us {
     margin-top: 50px;
-
   }
 
-  .study-with-us-description{
+  .study-with-us-description {
     margin-top: 50px;
     font-size: 18px !important;
   }
   .harvard {
-    
   }
 
   .hertfordshire {
- 
   }
   .stanford {
-   
   }
 
   .oxford1 {
-    
   }
 
   .unimas {
-   
   }
 
   .oxford2 {
-   
   }
-
 }
-
-

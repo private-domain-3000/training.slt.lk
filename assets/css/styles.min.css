@@ -1293,11 +1293,6 @@
   background-color: #fff;
 }
 @media (min-width: 1200px) {
-  .study-with-us-description {
-    position: relative;
-    bottom: -35px;
-  }
-
   .logo img {
     width: 269px;
   }
@@ -1873,10 +1868,10 @@ commmon */
   font-family: Raleway, sans-serif;
   font-weight: bold;
 }
-.container-fluid.header {
+/*.container-fluid.header {
   /* padding-top: 15px; */
-  background-color: #012241d9;
-}
+/*background-color: #012241d9;
+} */
 .navbar-toggler {
   padding: 20px;
 }
@@ -1916,81 +1911,81 @@ ul.affliation-block li {
   color: #6c6c6c;
 }
 
-@media(min-width:992px)
-{#courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0;
-  height: 90px;
+@media (min-width: 992px) {
+  #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    height: 90px;
+  }
+
+  .study-centers #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    height: 40px;
+  }
 }
 
-.study-centers #courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0;
-  height: 40px;
-}
-}
-
-@media(min-width:1200px)
-{#courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 0;
-  height: 95px;
-}
-.study-centers #courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0;
-  height: 40px;
-}
+@media (min-width: 1200px) {
+  #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    height: 95px;
+  }
+  .study-centers #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    height: 40px;
+  }
 }
 
-@media(min-width:1400px)
-{#courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 0;
-  height: 95px;
-}
+@media (min-width: 1400px) {
+  #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    height: 95px;
+  }
 
-.study-centers #courses-carousal .owl-item .course-title {
-  text-align: center;
-  padding: 10px;
-  background: url("../img/upcoming-bg.jpg");
-  background-size: 100% 100%;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0;
-  height: 40px;
-}
+  .study-centers #courses-carousal .owl-item .course-title {
+    text-align: center;
+    padding: 10px;
+    background: url("../img/upcoming-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    height: 40px;
+  }
 }
 #courses-carousal .owl-item .university-badge {
   padding: 5px 30px;
@@ -2150,7 +2145,7 @@ ul.affliation-block li {
   }
   .upcoming-course {
     position: absolute;
-    bottom: -77px;
+    bottom: -63px;
     right: -12px;
   }
   .student-stories-carousal {
@@ -2563,6 +2558,12 @@ ul.affliation-block li {
   /* padding: -5px; */
   border-radius: inherit;
 }
+.container-fluid.quick-links-area {
+  background: #c9edff;
+}
+.container-fluid.header {
+  background: #001a3cb2;
+}
 
 /* .study-with-us-description{
 	position: absolute;
@@ -2585,10 +2586,6 @@ ul.affliation-block li {
     margin-top: 50px;
   }
 
-  .study-with-us-description {
-    margin-top: 40px;
-    font-size: 18px !important;
-  }
   .container-study-with-us {
     margin-top: 0px;
     padding: 0px;
@@ -2604,25 +2601,251 @@ ul.affliation-block li {
   .study-with-us {
     margin-top: 50px;
   }
+}
 
-  .study-with-us-description {
-    margin-top: 50px;
-    font-size: 18px !important;
-  }
-  .harvard {
-  }
+@media (min-width: 300px) {
 
-  .hertfordshire {
-  }
-  .stanford {
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
   }
 
-  .oxford1 {
+  .study-center .theme-image img {
+    width: 438px;
+    margin-left: -162px;
+    margin-top: -19px;
+    /* margin-right: auto; */
   }
 
-  .unimas {
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
   }
 
-  .oxford2 {
+  .study-center-carousal .course-title {
+    font-size: 12px !important;
   }
+
+  .study-center2 .courses-carousal-buttons {
+
+    top:32% !important;
+    /* margin-left: .8rem !important;   */
+    margin-right: .8rem !important;  
+  }
+
+  .study-center2 .mx-2{
+
+    margin-right: .0rem !important;  
+    margin-left: .0rem !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 400px !important;
+
+  }
+
+  .study-center2 .owl-item .course-title {
+    height: 40px !important;
+  }
+
+}
+
+
+@media (min-width: 576px) {
+
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1.1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .course-title {
+    font-size: 20px !important;
+  }
+
+  .study-center2 .courses-carousal-buttons {
+
+    top:32% !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 420px !important;
+
+  }
+
+  .study-center .theme-image img {
+    width: 314px;
+    margin-left: -24px;
+    margin-top: 72px;
+    /* margin-right: auto; */
+  }
+
+}
+@media (min-width: 768px) {
+
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1.1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .course-title {
+    font-size: 16px !important;
+  }
+
+  .study-center2 .courses-carousal-buttons {
+
+    top:32% !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 330px !important;
+
+  }
+
+  .study-center .theme-image img {
+    width: 418px;
+    margin-left: -24px;
+    margin-top: 10px;
+    /* margin-right: auto; */
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1.1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .course-title {
+    font-size: 16px !important;
+  }
+
+  .study-center2 .courses-carousal-buttons {
+
+    top:32% !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 330px !important;
+
+  }
+
+  .study-center .theme-image img {
+    width: 561px;
+    margin-left: -24px;
+    margin-top: -20px;
+    /* margin-right: auto; */
+  }
+
+}
+@media (min-width: 1200px) {
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1.1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .course-title {
+    font-size: 16px !important;
+  }
+
+  .study-center-carousal .courses-carousal-buttons {
+
+    top:27% !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 400px !important;
+
+  }
+
+  .study-center .theme-image img {
+    width: 561px;
+    margin-left: -24px;
+    margin-top: 0px;
+    /* margin-right: auto; */
+  }
+}
+
+
+
+@media (min-width: 1400px) {
+  .study-center-carousal .owl-item.active.center .card-rounded {
+    scale: 1.1 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .owl-item {
+    scale: 0.9 !important;
+    z-index: 5000000;
+    transition: all ease-in-out 0.2s;
+    margin-top: 0px !important  ;
+  }
+
+  .study-center-carousal .course-title {
+    font-size: 16px !important;
+  }
+
+  .study-center-carousal .courses-carousal-buttons {
+
+    top:27% !important;
+  }
+
+  .study-center-carousal .owl-stage-outer {
+    height: 430px !important;
+
+  }
+
+  .study-center .theme-image img {
+    width: 619px;
+    margin-left: -24px;
+    margin-top: 0px;
+    /* margin-right: auto; */
+  }
+}
+
+.container-fluid.newsArea {
+	background-color: #eff8ff;
 }
